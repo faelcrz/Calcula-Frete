@@ -1,2 +1,3 @@
 # Calcula-Frete
-Calcular Frete, Gera uma Api via SpringBoot e consome API viacep
+
+SPRING BOOT + MYSQL + API(VIACEP)
