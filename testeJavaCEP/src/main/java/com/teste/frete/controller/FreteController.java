@@ -12,12 +12,11 @@ import com.teste.frete.service.FreteService;
 
 @RestController
 public class FreteController {
-
 	@Autowired
 	FreteService service;
-	
+
 	@PostMapping("/consultar")
-	public ResponseEntity<FreteOutput> consultarCep(@RequestBody FreteDados dados){	
-		return service.consultarCep(dados);	
+	public ResponseEntity<FreteOutput> consultarCep(@RequestBody FreteDados dados) {
+		return service.consultarCep(dados);
 	}
 }

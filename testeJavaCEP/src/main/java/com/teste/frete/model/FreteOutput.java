@@ -3,7 +3,6 @@ package com.teste.frete.model;
 import java.util.Date;
 
 public class FreteOutput {
-	
 	private double vlTotalFrete;
 	private Date dataPrevistaEntrega;
 	private String cepOrigem;
